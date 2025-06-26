@@ -1,3 +1,4 @@
+// Equipe: Enzo Gabriel Calado e João Neto 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -238,11 +239,11 @@ int main(){
     FILE *file_in = fopen("L1Q3.in", "r");
     FILE *file_out = fopen("L1Q3.out", "w");
         if (!file_in) {
-            perror("Erro ao abrir L1Q1.in");
+            perror("Erro ao abrir L1Q3.in");
             return 1;
         }
         if (!file_out) {
-            perror("Erro ao abrir L1Q1.out");
+            perror("Erro ao abrir L1Q3.out");
             return 1;
         }
         char line[LINE_MAX_SIZE];
